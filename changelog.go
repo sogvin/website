@@ -24,7 +24,13 @@ var Changelog = Article(Class("changelog"),
 	P(`All notable changes to this project will be documented in
         this file.`),
 
-	H3(Class("latest"), "0.5.1", Span("2022-05-22")),
+	H3(Class("latest"), "unreleased", Span("")),
+	Ul(
+		Li("Update dependencies"),
+		Li("Use Go v1.21"),
+	),
+
+	H3("0.5.1", Span("2022-05-22")),
 	Ul(
 		Li("Move module to github.com/sogvin/website"),
 	),
