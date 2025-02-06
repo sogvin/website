@@ -28,3 +28,5 @@ github.com/gregoryv/workdir v0.2.1 h1:O6bUqh+Aee3oyipVWtoUIMAQAyonFhPsqvdZdun+E3
 github.com/gregoryv/workdir v0.2.1/go.mod h1:CguB3CtVrK9qiepvewl3oSbQBFjGrWOngSh/drURNRk=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/russross/blackfriday/v2 v2.1.0 h1:JIOH55/0cWyOuilr9/qlrm0BSXldqnqwMsf35Ld67mk=
+github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=

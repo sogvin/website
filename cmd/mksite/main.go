@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
 
 	"github.com/gregoryv/cmdline"
 	"github.com/sogvin/website"
@@ -25,8 +26,8 @@ func main() {
 		fmt.Println(website.Version())
 
 	case checkRelease:
-		if website.Version() == "unreleased" {
-			log.Fatal("not ready for release, fix changelog")
+		if v := website.Version(); strings.Contains(v, "-") {
+			log.Fatalf("%s, not ready", v)
 		}
 
 	default:
