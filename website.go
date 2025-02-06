@@ -258,7 +258,7 @@ func (me *saveAll) SaveTo(base string) error {
 		theme.SaveTo(base)
 	}
 	drills := filepath.Join(base, "drill")
-	os.MkdirAll(drills, 0722)
+	os.MkdirAll(drills, 0755)
 	for _, drill := range me.drills {
 		if err := drill.SaveTo(drills); err != nil {
 			return err
