@@ -34,7 +34,7 @@ case $1 in
     publish)
 	echo "publish"
 	go run ./cmd/mksite -c # guard
-	rsync -avC $dist/docs/ www.7de.se:/var/www/www.website.com/
+	rsync -avC $dist/docs/ www.7de.se:/var/www/www.sogvin.com/
 	;;
     clean)
 	echo "clean"	
