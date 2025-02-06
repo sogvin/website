@@ -24,9 +24,7 @@ var Changelog = Article(Class("changelog"),
 	P(`All notable changes to this project will be documented in
         this file.`),
 
-	H3(Class("latest"), "unreleased", Span("")),
-	
-	H3("0.5.2", Span("2024-10-05")),
+	H3("0.5.2", Class("latest"), Span("2024-10-05")),
 	Ul(
 		Li("Fix typo navstart"),
 		Li("Update dependencies"),
