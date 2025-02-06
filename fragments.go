@@ -20,7 +20,7 @@ import (
 func versionField() *Element {
 	el := Span()
 	v := Version()
-	if v == "unreleased" {
+	if strings.Contains(v, "-") { // ie. -dev
 		el.With(Class("unreleased"), v)
 	} else {
 		el.With("v", v)

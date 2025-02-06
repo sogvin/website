@@ -16,15 +16,6 @@ func Version() string {
 	return changelog[from:to]
 }
 
-func Released() string {
-	v := Version()
-	i := strings.Index(v, "-")
-	if i > 0 {
-		return v[i+1:]
-	}
-	return ""
-}
-
 var Changelog = Article(Class("changelog"),
 	H1("Changelog"),
 	string(

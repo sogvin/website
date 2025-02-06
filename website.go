@@ -132,7 +132,7 @@ func NewWebsite() *Website {
 			),
 			Body(
 				Header(Code(
-					A(Href("changelog.html"), versionField()), " - ", Released(),
+					A(Href("changelog.html"), versionField()),
 				)),
 				article,
 				Footer(),
